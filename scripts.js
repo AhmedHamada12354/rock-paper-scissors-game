@@ -210,7 +210,7 @@ function lose() {
     houseLayer2.classList.add("layer2");
     houseLayer3.classList.add("layer3");
     sessionStorage.score = 0;
-    score.innerText.innerText = sessionStorage.score;
+    score.innerText = sessionStorage.score;
     finalMessage.innerText = "You lost";
 };
 
